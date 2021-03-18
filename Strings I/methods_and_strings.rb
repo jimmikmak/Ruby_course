@@ -40,3 +40,14 @@ p story.slice(0, 10)
 p story[0, story.length]
 
 p story[-7, 5]
+p story.slice(-7, 5)
+
+# Multiple characters with Range Object
+
+story = 'Once upon a time in a land far, far away...'
+
+# p story[27..39]
+# p story.slice(27..39)
+
+p story[27...39]
+p story.slice(27...39)
