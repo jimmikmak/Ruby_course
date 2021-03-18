@@ -19,3 +19,15 @@ puts 'LIFTOFF!!'
 end
 
 puts 'BAZINGA!!'
+
+# step Method
+
+0.step(100, 5) { |nums| puts nums }
+
+0.step(85, 7) do |number|
+  puts "Alright, let's go up by 7 again!!"
+  puts "I am now on #{number}"
+end
+
+0.upto(10) { |n| puts n }
+0.step(10) { |n| puts n }
