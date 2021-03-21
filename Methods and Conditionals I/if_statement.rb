@@ -33,3 +33,20 @@ end
 
 praise_person('James', 42)
 praise_person('Clem', 41)
+
+# The if Statement
+
+# puts 'That math statement is true!' if 5 < 7
+
+# password = 'top secret'
+
+# puts "Congratulations, you've logged into our system!" if password == 'top secret'
+
+# # ALTERNATIVE SYNTAX
+# # word = kangaroo
+
+# # if word.length == 8
+# #  puts "That word has 8 letters!"
+# # end
+
+# if elsif
