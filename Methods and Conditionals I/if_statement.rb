@@ -50,3 +50,7 @@ praise_person('Clem', 41)
 # # end
 
 # if elsif
+
+# NB Besides false and nil, everything in Ruby is TRUE!!
+
+puts 'That is true' if 5 < 8
