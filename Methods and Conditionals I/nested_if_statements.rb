@@ -34,9 +34,17 @@ def meal_plan(time_of_week, time_of_day)
   end
 end
 
-p meal_plan("weekday", "lunch")
-p meal_plan("weekday", "dinner")
-p meal_plan("weekend", "breakfast")
-p meal_plan("weekend", "dinner")
+p meal_plan('weekday', 'lunch')
+p meal_plan('weekday', 'dinner')
+p meal_plan('weekend', 'breakfast')
+p meal_plan('weekend', 'dinner')
 
-# 
+# the .respond_to? Method (predicate method -> needs '?')
+
+num = 1000
+
+p num.next if num.respond_to?('next')
+
+puts 'Hello'.respond_to?('length')
+puts 'Hello'.respond_to?(:upcase)
+puts 1.respond_to?(:next)
