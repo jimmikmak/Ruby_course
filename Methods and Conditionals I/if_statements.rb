@@ -54,3 +54,37 @@ praise_person('Clem', 41)
 # NB Besides false and nil, everything in Ruby is TRUE!!
 
 puts 'That is true' if 5 < 8
+
+color = 'Yellow'
+
+if color == 'Red'
+  puts 'Red is awesome!'
+elsif color == 'Green'
+  puts 'Green is more awesome!!'
+elsif color == 'Yellow'
+  puts 'Yay for Yellow!'
+end
+
+puts
+
+number = 55
+
+if number < 55
+  puts "That's a low number..."
+elsif number < 50
+  puts "That's a number in the middle!"
+elsif number < 75
+  puts "That's a big number!!"
+end
+
+# if_else block
+
+grade = 'F'
+
+if grade == 'A'
+  puts "That's an excellent grade. Good job!"
+elsif grade == 'B'
+  puts "That's a good grade. Let's bring it up next time..."
+else
+  puts 'Unacceptable!!'
+end
