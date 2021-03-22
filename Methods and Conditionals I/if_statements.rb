@@ -88,3 +88,35 @@ elsif grade == 'B'
 else
   puts 'Unacceptable!!'
 end
+
+def odd_or_even(number)
+  if number.odd?
+    'That number is odd'
+  else
+    'That number is even'
+  end
+end
+
+p odd_or_even(5)
+
+# Multiple Conditions with && Operator
+
+age = 25
+ticket = 'General Admission'
+id = true
+
+puts 'Congratulations, welcome to the show!' if age > 21 && ticket == 'General Admission' && id
+
+# if age > 21 && ticket
+# puts "Congratulations, welcome to the show!"
+# elsif ticket && id
+# puts "Alright, you get in anyway..."
+# end
+
+# Multiple Conditions with || Operator
+
+budget = 5
+price = 10
+mood = 'Happy'
+
+puts "I'm going to buy the item!" if budget > price || mood == 'Happy'
