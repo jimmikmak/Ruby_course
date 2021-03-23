@@ -31,3 +31,22 @@ else
 end
 
 puts pokemon == 'Charizard' ? 'Fireball!' : 'That is not Charizard!!'
+
+# with Method
+
+def check_pokemon(pokemon)
+  pokemon == 'Charizard' ? 'Fireball!' : 'That is not Charizard!!'
+end
+
+p check_pokemon('Pikachu')
+p check_pokemon('Squirtle')
+p check_pokemon('Onyx')
+p check_pokemon('Charizard')
+
+# Default or Optional Parameters
+
+def make_phone_call(number, international_code = 1, area_code = 646)
+  puts "Calling #{international_code}-#{area_code}-#{number}"
+end
+
+p make_phone_call(555_555, 4)
