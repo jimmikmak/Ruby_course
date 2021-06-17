@@ -18,7 +18,7 @@ puts "Huge number!" if number > 2500 && verified
 
 puts 
 
-x= 8
+x = 8
 
 unless x > 10
     puts "x is NOT greater than 10"
